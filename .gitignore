@@ -3,7 +3,7 @@
 *.iml
 *.iws
 
-*.log
+dispute-services/app.log
 
 #wercker
 .wercker
