@@ -1,0 +1,16 @@
+# Build definition
+build:
+  # The steps that will be executed on build
+    steps:
+        - script:
+            name: maven build
+            code: |
+              mvn clean package
+ittest:
+  # The steps that will be executed on build
+    steps:
+        - script:
+            name: integration-test
+            code: |
+              mvn verify
+

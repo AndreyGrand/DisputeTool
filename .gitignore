@@ -1,0 +1,19 @@
+#for ide idea
+.idea/
+*.iml
+*.iws
+
+*.log
+
+#wercker
+.wercker
+
+
+#maven
+target/
+test-output/
+
+#eclipse
+.project
+.settings
+.classpath
